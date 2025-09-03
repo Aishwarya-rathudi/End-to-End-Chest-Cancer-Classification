@@ -75,3 +75,23 @@ Web Framework: Flask
 MLOps Tools: DVC, GitHub Actions (CI/CD)
 
 Deployment (optional): Docker, AWS/Azure/GCP
+
+## 📈 Results
+
+Achieved high accuracy in classifying chest cancer images.
+
+Reduced false negatives → improves trust for clinical decision support.
+
+Demonstrated scalable and reproducible ML pipeline for medical AI.
+
+## ✅ Key Features
+
+End-to-end reproducible ML pipeline.
+
+Modular design with config-driven execution.
+
+Web interface for real-time predictions.
+
+MLOps integration with DVC for version control.
+
+Deployment ready (Docker + Cloud support).
