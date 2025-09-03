@@ -59,3 +59,19 @@ Tracks datasets, models, and experiments.
 Ensures reproducibility and versioning.
 
 dvc.yaml defines pipelines for training & evaluation.
+
+## 🛠 Tech Stack
+
+Programming Language: Python
+
+Deep Learning: TensorFlow / Keras
+
+Data Handling: NumPy, Pandas
+
+Visualization: Matplotlib, Seaborn
+
+Web Framework: Flask
+
+MLOps Tools: DVC, GitHub Actions (CI/CD)
+
+Deployment (optional): Docker, AWS/Azure/GCP
