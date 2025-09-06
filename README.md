@@ -66,18 +66,15 @@ The project follows a **modular, production-ready ML pipeline** with configurabl
 
 ---
 
-## 📊 Project Pipeline  
-
-```mermaid
 flowchart TD
-    A[📂 Dataset<br>(Chest X-rays/CT scans)] --> B[🔄 Data Ingestion<br>(Split Train/Val/Test)]
-    B --> C[⚙️ Base Model Preparation<br>(Transfer Learning - VGG16/ResNet)]
-    C --> D[🧠 Model Training<br>(Fine-tuning CNN)]
-    D --> E[📈 Model Evaluation<br>(Accuracy, Loss, Metrics)]
-    E --> F[💾 Save Model<br>(model.h5 + scores.json)]
-    F --> G[🌐 Flask Web App<br>(Upload & Predict)]
-    G --> H[📦 MLOps with DVC<br>(Data & Model Versioning)]
-    H --> I[☁️ Deployment<br>(Docker + Cloud Hosting)]
+    A[Dataset (Chest X-rays/CT scans)] --> B[Data Ingestion (Split Train/Val/Test)]
+    B --> C[Base Model Preparation (Transfer Learning - VGG16/ResNet)]
+    C --> D[Model Training (Fine-tuning CNN)]
+    D --> E[Model Evaluation (Accuracy, Loss, Metrics)]
+    E --> F[Save Model (model.h5 + scores.json)]
+    F --> G[Flask Web App (Upload & Predict)]
+    G --> H[MLOps with DVC (Data & Model Versioning)]
+    H --> I[Deployment (Docker + Cloud Hosting)]
 
 🛠 Tech Stack
 
