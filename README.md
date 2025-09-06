@@ -83,7 +83,7 @@ The project follows a **modular, production-ready ML pipeline** with configurabl
     
     H --> I[Deployment (Docker + Cloud Hosting)]
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 Language: Python 🐍
 
@@ -99,7 +99,7 @@ MLOps Tools: DVC, GitHub Actions ⚡
 
 Deployment (optional): Docker 🐳, AWS/Azure/GCP ☁️
 
-📈 Results
+## 📈 Results
 
 ✅ Achieved high accuracy in classifying chest cancer images
 
@@ -107,7 +107,7 @@ Deployment (optional): Docker 🐳, AWS/Azure/GCP ☁️
 
 📌 Demonstrated a scalable, reproducible ML pipeline
 
-🌟 Highlights
+## 🌟 Highlights
 
 ✔️ 91%+ Accuracy on test dataset
 
@@ -119,7 +119,7 @@ Deployment (optional): Docker 🐳, AWS/Azure/GCP ☁️
 
 ✔️ Deployment-ready with Docker + Cloud
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 ✅ Multi-class classification (different cancer types)
 
