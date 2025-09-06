@@ -66,14 +66,21 @@ The project follows a **modular, production-ready ML pipeline** with configurabl
 
 ---
 
-flowchart TD
+## flowchart TD
     A[Dataset (Chest X-rays/CT scans)] --> B[Data Ingestion (Split Train/Val/Test)]
+    
     B --> C[Base Model Preparation (Transfer Learning - VGG16/ResNet)]
+    
     C --> D[Model Training (Fine-tuning CNN)]
+    
     D --> E[Model Evaluation (Accuracy, Loss, Metrics)]
+    
     E --> F[Save Model (model.h5 + scores.json)]
+    
     F --> G[Flask Web App (Upload & Predict)]
+    
     G --> H[MLOps with DVC (Data & Model Versioning)]
+    
     H --> I[Deployment (Docker + Cloud Hosting)]
 
 🛠 Tech Stack
@@ -103,9 +110,13 @@ Deployment (optional): Docker 🐳, AWS/Azure/GCP ☁️
 🌟 Highlights
 
 ✔️ 91%+ Accuracy on test dataset
+
 ✔️ Transfer Learning (VGG16/ResNet) for robust performance
+
 ✔️ DVC-powered reproducibility
+
 ✔️ User-friendly Flask Web App for real-time predictions
+
 ✔️ Deployment-ready with Docker + Cloud
 
 🔮 Future Improvements
